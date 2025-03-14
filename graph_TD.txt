@@ -1,0 +1,9 @@
+graph TD
+  subgraph AI-Agent-Orchestration
+    A[Agent Orchestrator] --> B[Prompt Engine]
+    A --> C[Context Manager]
+    A --> D[GPT-4 Client]
+    A --> E[Claude Client]
+  end
+  B --> F[Prompt Chaining Logic]
+  C --> G[Conversation Log Storage]
