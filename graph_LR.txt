@@ -1,0 +1,9 @@
+graph LR
+    A[User Interface] --> B[API Gateway]
+    B --> C[Authentication Service]
+    B --> D[AI Orchestration Module]
+    D --> E[GPT-4 Client]
+    D --> F[Claude Client]
+    D --> G[Context Manager]
+    G --> H[Conversation Memory Store]
+    C --> I[Database]
